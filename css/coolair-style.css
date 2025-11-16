@@ -863,3 +863,15 @@ li.trackback {
     max-width: 100%;
     height: auto;
 }
+.shop-now-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff5e00;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
