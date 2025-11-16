@@ -875,3 +875,6 @@ li.trackback {
     text-decoration: none;
     font-weight: 600;
 }
+.icon {
+    fill: white; /* this sets the SVG color to white */
+}
