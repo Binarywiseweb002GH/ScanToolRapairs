@@ -878,22 +878,27 @@ li.trackback {
 .icon {
     fill: white; /* this sets the SVG color to white */
 }
-.shop-now-btn {
+.post-categories .shop-now-btn {
     display: inline-block;           
-    margin-top: 100px;                
-    padding: 12px 30px;              
-    background-color: #0a2540;      
+    margin-top: 190px;                
+    padding: 16px 40px;  /* bigger button */
+    background-color: #d10000 !important;  /* red button */
     color: #fff;                    
     border-radius: 8px;             
     text-decoration: none;          
     font-weight: bold;              
     transition: background 0.3s;    
     white-space: nowrap; /* prevents wrapping */
+    
+    position: relative;   
+    left: -127px; /* keep your left adjustment */
 }
 
-.shop-now-btn:hover {
-    background-color: #234982;      
+.post-categories .shop-now-btn:hover {
+    background-color: #a50000 !important;  /* slightly darker red on hover */
 }
+
+
 /* CSS */
 .service-area .w-70px {
   position: absolute;       /* keep absolute positioning */
