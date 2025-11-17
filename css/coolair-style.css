@@ -917,4 +917,10 @@ li.trackback {
   height: 50px;
   display: block;
 }
+/* Reduce bottom padding of the section */
+/* Move the Testimonials section a bit up */
+.elementor-element-ea965fa {
+    margin-top: -50px; /* adjust value as needed */
+}
+
 
