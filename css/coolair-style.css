@@ -894,3 +894,22 @@ li.trackback {
 .shop-now-btn:hover {
     background-color: #234982;      
 }
+/* CSS */
+.service-area .w-70px {
+  position: absolute;       /* keep absolute positioning */
+  top: 35%;                 /* vertically center */
+  left: 35%;                /* start from center horizontally */
+  transform: translate(-60%, -50%); /* move 10% more to the left */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: adjust SVG size inside */
+.service-area .w-70px svg {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
